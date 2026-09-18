@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-wrap">
+    <h1>Snake</h1>
+    <div class="hud">
+      <span>Pontszám: <strong id="score">0</strong></span>
+      <span>Legjobb: <strong id="highscore">0</strong></span>
+    </div>
+    <canvas id="board" width="400" height="400"></canvas>
+    <div class="controls">
+      <p>Irányítás: nyilak / WASD. Szóköz: szünet, Game Over után újraindítás.</p>
+      <button id="restart">Újraindítás</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
